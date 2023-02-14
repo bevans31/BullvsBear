@@ -35,19 +35,42 @@ struct GamePage: View {
                     
                     VStack {
                         Text(t.name[0])
+                            .font(.title)
                             .bold()
                             .padding()
-                        Image(t.logo[0])
-                            .resizable()
-                            .frame(width: 200, height: 200)
-                            .padding(.horizontal)
-                            .tag(0)
-                     .scaledToFit()
-                        
+                        ZStack{
+                            Rectangle()
+                                .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+                                .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                                .cornerRadius(/*@START_MENU_TOKEN@*/5.0/*@END_MENU_TOKEN@*/)
+                                
+                            
+                            Image(t.logo[0])
+                                .resizable()
+                                .frame(width: 180.0, height: 200.0)
+                                .padding(.horizontal)
+                                .scaledToFit()
+                         
+                            
+                            
+                        }
                     }
+                    
+                    .padding()
                 }
             }
             .frame(height: 300)
+            HStack{
+                Text(t.tickerName[0])
+                    .bold()
+                    .padding()
+                Spacer()
+                Text(t.stockPrice[0])
+                    .bold()
+                    .padding()
+                   
+                    
+            }
            
             HStack{
                 Button("INVEST"){
