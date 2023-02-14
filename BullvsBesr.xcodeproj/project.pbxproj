@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C26D06FF2993267D000E08FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B9A2989667700B319E5 /* ContentView.swift */; };
-		C26D07012993449A000E08FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D07002993449A000E08FA /* Extensions.swift */; };
 		C26D0707299346D5000E08FA /* Invest Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D0706299346D5000E08FA /* Invest Button.swift */; };
 		C27A5C7029943F2400750868 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5C6F29943F2400750868 /* GamePage.swift */; };
 		C2852B992989667700B319E5 /* BullvsBesrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B982989667700B319E5 /* BullvsBesrApp.swift */; };
@@ -16,10 +15,10 @@
 		C2852BA02989667900B319E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2852B9F2989667900B319E5 /* Preview Assets.xcassets */; };
 		C28E12EC2995AD1100A27A0D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E12EB2995AD1100A27A0D /* Timer.swift */; };
 		C2F14C3A299A88E400B52ECF /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F14C39299A88E400B52ECF /* Stocks.swift */; };
+		C2F14C3C299BEAF400B52ECF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F14C3B299BEAF400B52ECF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C26D07002993449A000E08FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C26D0706299346D5000E08FA /* Invest Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Invest Button.swift"; sourceTree = "<group>"; };
 		C27A5C6F29943F2400750868 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
 		C2852B952989667700B319E5 /* BullvsBesr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullvsBesr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +28,7 @@
 		C2852B9F2989667900B319E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C28E12EB2995AD1100A27A0D /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		C2F14C39299A88E400B52ECF /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		C2F14C3B299BEAF400B52ECF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,6 @@
 				C2852BA72989680800B319E5 /* compents */,
 				C2852B9C2989667900B319E5 /* Assets.xcassets */,
 				C2852B9E2989667900B319E5 /* Preview Content */,
-				C26D07002993449A000E08FA /* Extensions.swift */,
 			);
 			path = BullvsBesr;
 			sourceTree = "<group>";
@@ -85,6 +84,7 @@
 				C26D0706299346D5000E08FA /* Invest Button.swift */,
 				C28E12EB2995AD1100A27A0D /* Timer.swift */,
 				C2F14C39299A88E400B52ECF /* Stocks.swift */,
+				C2F14C3B299BEAF400B52ECF /* Extensions.swift */,
 			);
 			path = compents;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 				C28E12EC2995AD1100A27A0D /* Timer.swift in Sources */,
 				C27A5C7029943F2400750868 /* GamePage.swift in Sources */,
 				C26D06FF2993267D000E08FA /* ContentView.swift in Sources */,
-				C26D07012993449A000E08FA /* Extensions.swift in Sources */,
+				C2F14C3C299BEAF400B52ECF /* Extensions.swift in Sources */,
 				C26D0707299346D5000E08FA /* Invest Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
