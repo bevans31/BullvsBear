@@ -14,7 +14,7 @@ struct GamePage: View {
     let t = Stocks()
 
     var body: some View {
-        VStack(spacing: 40){
+        VStack(spacing: 9){
             HStack{
                 Text("$1000.00")
                     .font(.title)
@@ -68,6 +68,9 @@ struct GamePage: View {
                 }
                 .passFormat()
             }
+         
+            
+               
             Spacer()
         }
        .onReceive(timer) { time in
