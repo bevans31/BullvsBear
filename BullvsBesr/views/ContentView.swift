@@ -28,7 +28,7 @@ struct ContentView: View {
                     
                     
                 }
-                NavigationLink(destination: GamePage()){
+                NavigationLink(destination: Onboarding_screen()){
                     Text("Create Network")}
                 .padding()
                 .padding(.horizontal)
