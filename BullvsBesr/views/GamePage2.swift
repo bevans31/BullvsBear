@@ -1,13 +1,13 @@
 //
-//  Difficulty.swift
+//  GamePage2.swift
 //  BullvsBesr
 //
-//  Created by Brandon Evans on 2/8/23.
+//  Created by Brandon Evans on 2/15/23.
 //
 
 import SwiftUI
 
-struct GamePage: View {
+struct GamePage2: View {
     @State private var timeRemaining = 60
     @State var index = 0
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -69,9 +69,9 @@ struct GamePage: View {
                 .passFormat()
             }
          
-            Text(t.bullMarket[0])
+            Text(t.bearMarket[0])
                 .bold()
-                .padding()
+              .padding()
                
             Spacer()
         }
@@ -88,8 +88,8 @@ struct GamePage: View {
 
         
     
-struct GamePage_Previews: PreviewProvider {
+struct GamePage2_Previews: PreviewProvider {
     static var previews: some View {
-        GamePage()
+        GamePage2()
     }
 }

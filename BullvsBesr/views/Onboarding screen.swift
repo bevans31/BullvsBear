@@ -11,7 +11,7 @@ struct Onboarding_screen: View {
     var body: some View {
         VStack(spacing:10){
             
-            Text("Diffculty")
+            Text("Market")
                 .font(.title)
                 .fontWeight(.heavy)
                 .lineLimit(0)
@@ -21,13 +21,23 @@ struct Onboarding_screen: View {
         
             
             NavigationLink(destination: GamePage()){
-                Text("Fundamentals")}
+                Text("Bull")}
             .padding()
             .padding(.horizontal)
             .foregroundColor(/*@START_MENU_TOKEN@*/Color.white/*@END_MENU_TOKEN@*/)
             .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.green/*@END_MENU_TOKEN@*/)
             .cornerRadius(10)
             .shadow(radius: 10)
+            NavigationLink(destination: GamePage2()){
+                Text("Bear")}
+            .padding()
+            .padding(.horizontal)
+            .foregroundColor(/*@START_MENU_TOKEN@*/Color.white/*@END_MENU_TOKEN@*/)
+            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.red/*@END_MENU_TOKEN@*/)
+            .cornerRadius(10)
+            .shadow(radius: 10)
+            
+            
             
             
             
