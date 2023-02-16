@@ -18,7 +18,7 @@ struct ContentView: View {
             
             VStack(spacing:10) {
               VStack(spacing:10){
-                    Image("glow")
+                    Logovideo("GifImage")
                     
                     Text("\"Financial literacy is one of the most important components of economic success. Without education and knowledge about financial management and investments, individuals, businesses, and communities won't be successful in accumulating wealth or using it to its fullest potential in the future.\" - Robert Kiyosaki\"")
                         .font(.system(size: 11, weight: .light, design: .default))
