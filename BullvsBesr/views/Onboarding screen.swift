@@ -21,21 +21,12 @@ struct Onboarding_screen: View {
         
             
             NavigationLink(destination: GamePage()){
-                Text("Bull")}
-            .padding()
-            .padding(.horizontal)
-            .foregroundColor(/*@START_MENU_TOKEN@*/Color.white/*@END_MENU_TOKEN@*/)
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.green/*@END_MENU_TOKEN@*/)
-            .cornerRadius(10)
-            .shadow(radius: 10)
+                Image("Bull")}
+            
             NavigationLink(destination: GamePage2()){
-                Text("Bear")}
-            .padding()
-            .padding(.horizontal)
-            .foregroundColor(/*@START_MENU_TOKEN@*/Color.white/*@END_MENU_TOKEN@*/)
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.red/*@END_MENU_TOKEN@*/)
-            .cornerRadius(10)
-            .shadow(radius: 10)
+                Image("Bear")}
+            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+        
             
             
             

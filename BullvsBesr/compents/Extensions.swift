@@ -6,6 +6,8 @@
 //
 import Foundation
 import SwiftUI
+import AVFoundation
+import AVKit
 
     extension Text {
         func stockTitle() -> some View {
