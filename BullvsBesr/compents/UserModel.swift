@@ -10,7 +10,10 @@ import SwiftUI
 
 struct User {
     
-    //var name = ""
-    //var bank = 1,000
+    var name = "Username"
+    var bank = 1000
+    
+    
+    
     
 }

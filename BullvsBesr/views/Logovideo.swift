@@ -18,11 +18,12 @@ struct Logovideo: UIViewRepresentable {
         let url = Bundle.main.url(forResource: name, withExtension: "gif")!
         let data = try! Data(contentsOf: url)
         
+        
         webView.load(
-        data,
-        mimeType: "image/gif",
-        characterEncodingName: "UTF-8",
-        baseURL: url.deletingLastPathComponent()
+            data,
+            mimeType: "image/gif",
+            characterEncodingName: "UTF-8",
+            baseURL: url.deletingLastPathComponent()
         )
         
         return webView
@@ -30,7 +31,10 @@ struct Logovideo: UIViewRepresentable {
     }
     func updateUIView(_ uiView: WKWebView, context: Context) {
         uiView.reload()
+        
     }
+    
+   
     
 }
 
@@ -38,5 +42,6 @@ struct Logovideo: UIViewRepresentable {
 struct Logovideo_Previews: PreviewProvider {
     static var previews: some View {
         Logovideo("GifImage")
+        
     }
 }

@@ -30,8 +30,7 @@ struct GamePage: View {
             }
 
             Spacer()
-           // TabView(selection: self.$index) {
-                //9ForEach(0 ... t.name.count-1, id: \.self) { tt in
+       
                     
                     VStack {
                         Text(t.name[0])
@@ -48,8 +47,7 @@ struct GamePage: View {
                     }
                     
                     .padding()
-               // }
-            //}
+             
             .frame(height: 300)
             HStack{
                 Text(t.tickerName[0])
