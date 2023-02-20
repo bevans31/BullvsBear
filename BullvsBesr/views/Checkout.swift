@@ -11,51 +11,59 @@ struct Checkout: View {
     let t = Stocks()
     @State var index = 0
     var body: some View {
-        VStack (spacing: 9){
-            HStack{ Text("$846.15")
-                    .font(.headline)
-                    .fontWeight(.medium)
+        VStack {
+            HStack {
+                Text("$ 872.27")
+                    .font(.system(size: 21, weight: .semibold, design: .default))
+                    .foregroundColor(.primary)
                 Spacer()
                 Text("Round 1 Complete")
-                    .font(.headline)
-                    .fontWeight(.medium)
-                
+                    .font(.system(size: 21, weight: .semibold, design: .default))
             }
-            VStack {
-                
-                Text ( "Thank you for your purchase!")
-                    .font(.title)
-                    .lineLimit(2)
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .frame(width: 300.0, height: 1.0)
-                
-                    Image(t.logo[0])
-                        .logoFormat()
-                Text(t.name[0])
-                       .stockTitle()
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .frame(width: 300.0, height: 1.0)
-                HStack { Text("1x")
-                        .fontWeight(.bold)
+            ZStack {
+                RoundedRectangle(cornerRadius: 38, style: .continuous)
+                    .stroke(.primary, lineWidth: 2)
+                    .background(RoundedRectangle(cornerRadius: 38, style: .continuous).fill(.primary.opacity(0)))
+                    .frame(width: 378, height: 621)
+                    .clipped()
+                VStack {
+                    Text("Thank you for your purchase !")
+                        .font(.system(size: 36, weight: .semibold, design: .default))
+                    Rectangle()
+                        .foregroundColor(.primary)
+                        .frame(width: 319, height: 1)
+                        .clipped()
+                    ZStack {
+                        
+                                Image(t.logo[0])
+                                    .logoFormat()
+                           // .renderingMode(.original)
+                           // .resizable()
+                            //.aspectRatio(contentMode: .fit)
+                            //.frame(width: 141, height: 141)
+                            .clipped()
+                            .padding(.top)
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .stroke(.black
+                                    , lineWidth: 2)
+                            .frame(width: 210, height: 210)
+                            .clipped()
+                            .padding(.top)
+                    }
+                    Text(t.name[0])
+                        .stockTitle()
+                        .font(.system(size: 36, weight: .semibold, design: .default))
+                    Rectangle()
+                        .foregroundColor(.primary)
+                        .frame(width: 319, height: 1)
+                        .clipped()
                     Text(t.stockPrice[0])
-                        .bold()
-                        .padding()
-                }
-                HStack{
-                    Text("TOTAL:")
-                        .font(.title)
+                        .font(.system(size: 25, weight: .medium, design: .default))
                     Text(t.stockPrice[0])
-                        .font(.title)
-                        .bold()
                         .padding()
-                    
+                        .font(.system(size: 25, weight: .regular, design: .default))
                 }
             }
-           .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/7/*@END_MENU_TOKEN@*/)
-            
-            
-            
-            
         }
         
     }

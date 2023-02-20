@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GamePage2: View {
-    @State private var timeRemaining = 60
+    @State private var timeRemaining = 120
     @State var index = 0
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let t = Stocks()
