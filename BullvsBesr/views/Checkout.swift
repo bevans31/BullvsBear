@@ -22,17 +22,19 @@ struct Checkout: View {
                 
             }
             VStack {
+                
                 Text ( "Thank you for your purchase!")
                     .font(.title)
                     .lineLimit(2)
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .frame(width: 350.0, height: 1.0)
+                    .frame(width: 300.0, height: 1.0)
+                
                     Image(t.logo[0])
                         .logoFormat()
                 Text(t.name[0])
                        .stockTitle()
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .frame(width: 350.0, height: 1.0)
+                    .frame(width: 300.0, height: 1.0)
                 HStack { Text("1x")
                         .fontWeight(.bold)
                     Text(t.stockPrice[0])
@@ -49,9 +51,13 @@ struct Checkout: View {
                     
                 }
             }
+           .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/7/*@END_MENU_TOKEN@*/)
+            
+            
             
             
         }
+        
     }
 }
 
