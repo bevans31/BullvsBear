@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct TimerView: View {
-    @State var countDownTimer = 300
+    @State var countDownTimer = 50
     @State var timerRunning = true
+    
     let timer = Timer.publish(every:1, on: .main, in: .common).autoconnect()
     
     var body: some View {
@@ -19,9 +20,12 @@ struct TimerView: View {
                     if countDownTimer > 0 && timerRunning {
                         countDownTimer -= 1
                     } else {
-                        timerRunning = false
+                        timerRunning = true
                     }
                 }
+            Button( "Stop", action: {
+                timer.upstream.connect().cancel()
+            } )
                 .font(.system(size: 80, weight: .bold))
             
         }
@@ -31,6 +35,7 @@ struct TimerView: View {
     struct TimerView_Previews: PreviewProvider {
        static var previews: some View {
            TimerView()
+           
         }
     }
 }

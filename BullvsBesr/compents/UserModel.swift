@@ -8,12 +8,4 @@
 import Foundation
 import SwiftUI
 
-struct User {
-    
-    var name = "Username"
-    var bank = 1000
-    
-    
-    
-    
-}
+

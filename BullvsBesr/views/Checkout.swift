@@ -37,10 +37,6 @@ struct Checkout: View {
                         
                                 Image(t.logo[0])
                                     .logoFormat()
-                           // .renderingMode(.original)
-                           // .resizable()
-                            //.aspectRatio(contentMode: .fit)
-                            //.frame(width: 141, height: 141)
                             .clipped()
                             .padding(.top)
                         RoundedRectangle(cornerRadius: 10, style: .continuous)

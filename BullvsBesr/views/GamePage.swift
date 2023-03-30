@@ -56,7 +56,7 @@ struct GamePage: View {
                 Spacer()
                 Text(t.stockPrice[0])
                     .bold()
-                    .padding()
+                   .padding()
             }
             HStack{
                 Button("INVEST"){

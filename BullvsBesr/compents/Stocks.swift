@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Stocks {
+    
     var name = [ "Apple", "Tesla", "Verizon","Walmart", "EA", "Lyft","BOA", "McDonalds", "Google","Delta","Meta","Starbucks"]
     var logo = [ "apple", "Tesla", "Verizon","Walmart", "EA", "Lyft","BOA", "McDonalds", "Google","Delta","Meta","Starbucks"]
     var tickerName = [ "APPL", "TSLA", "VZ","WMT", "EA", "LYFT","BAC", "MCD", "GOOG","DAL","META","SBUX"]
