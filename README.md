@@ -17,8 +17,8 @@ Welcome to BEAR vs BULL, a financial literacy IOS app developed by 5 STRONG!
  Instructions:
  1. Select  "Create Network"
  2. Choose between a Bull Market (green) or a Bear Market (red)
- 3. Each user has $1,000 to invest their money into the stock market
- 4. User has 60 seconds to  choose between 9 stocks and read the market conditions for each and choose  to invest or to pass into the stock
+ 3. Each user has $1,500 to invest their money into the stock market
+ 4. User has 120 seconds to  choose between 9 stocks and read the market conditions for each and choose  to invest or to pass into the stock
  5. After user has selected all the stocks they want to invest or pass user selects "Checkout" to end the round.
  
  
