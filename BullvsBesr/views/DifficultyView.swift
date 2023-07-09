@@ -75,7 +75,7 @@ struct DifficultyView: View {
         if selectedDifficulty?.name == "Market Choice" {
             return AnyView(EasyMode())
         } else if selectedDifficulty?.name == "Mixed Market" {
-            return AnyView(HardMode())
+            return AnyView(HardMode(scenarios: scenarios, stocks: Stocks()))
         } else {
             return AnyView(EmptyView())
         }

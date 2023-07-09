@@ -20,7 +20,7 @@ struct EasyMode: View {
             
         
             
-            NavigationLink(destination: BullPage(stocks: Stocks())){
+            NavigationLink(destination: BullPage(scenarios: scenarios, stocks: Stocks())){
                 Image("Bull")}
 
             NavigationLink(destination: BearPage(scenarios: scenarios, stocks: Stocks())){

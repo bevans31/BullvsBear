@@ -1,13 +1,12 @@
 //
-//  GamePage.swift
+//  BearPage.swift
 //  BullvsBesr
 //
-//  Created by Brandon Evans on 7/1/23.
+//  Created by Brandon Evans on 7/9/23.
 //
-
 import SwiftUI
 
-struct BullPage: View {
+struct BearPage: View {
     @State private var timeRemaining = 120
     @State private var virtualMoney = 1500.0
     @State private var isInvesting = false
@@ -89,7 +88,7 @@ struct BullPage: View {
                 .disabled(isNextRound || isInvesting)
             }
             
-            Text(stocks.stocks[index].bullMarketScenarios[0])
+            Text(stocks.stocks[index].bearMarketScenarios[0])
                 .bold()
                 .padding()
             
@@ -184,8 +183,8 @@ struct BullPage: View {
     }
 }
 
-struct BullPage_Previews: PreviewProvider {
+struct BearPage_Previews: PreviewProvider {
     static var previews: some View {
-        BullPage(scenarios: [], stocks: Stocks())
+        BearPage(scenarios: [], stocks: Stocks())
     }
 }

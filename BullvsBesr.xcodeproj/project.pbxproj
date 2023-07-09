@@ -10,6 +10,8 @@
 		C2529E8B2A5B1C9000346A11 /* EndingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */; };
 		C2529E8D2A5B207E00346A11 /* DifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8C2A5B207E00346A11 /* DifficultyView.swift */; };
 		C2529E8F2A5B2C6C00346A11 /* HardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8E2A5B2C6C00346A11 /* HardMode.swift */; };
+		C2529E912A5B383000346A11 /* BearPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E902A5B383000346A11 /* BearPage.swift */; };
+		C2529E952A5B3C0C00346A11 /* StocksHardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E942A5B3C0C00346A11 /* StocksHardMode.swift */; };
 		C26D06FF2993267D000E08FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B9A2989667700B319E5 /* ContentView.swift */; };
 		C2852B992989667700B319E5 /* BullvsBesrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B982989667700B319E5 /* BullvsBesrApp.swift */; };
 		C2852B9D2989667900B319E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2852B9C2989667900B319E5 /* Assets.xcassets */; };
@@ -24,7 +26,6 @@
 		C2FC356A2A50ADE6007EC971 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35692A50ADE6007EC971 /* Authentication.swift */; };
 		C2FC35AD2A50B272007EC971 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35AC2A50B272007EC971 /* GameViewController.swift */; };
 		C2FC35AF2A50B5CA007EC971 /* BullPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35AE2A50B5CA007EC971 /* BullPage.swift */; };
-		C2FC35B12A50B5F4007EC971 /* BearPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35B02A50B5F4007EC971 /* BearPage.swift */; };
 		C2FC35B72A51FC78007EC971 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35B62A51FC78007EC971 /* Scenario.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingScreen.swift; sourceTree = "<group>"; };
 		C2529E8C2A5B207E00346A11 /* DifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyView.swift; sourceTree = "<group>"; };
 		C2529E8E2A5B2C6C00346A11 /* HardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardMode.swift; sourceTree = "<group>"; };
+		C2529E902A5B383000346A11 /* BearPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearPage.swift; sourceTree = "<group>"; };
+		C2529E942A5B3C0C00346A11 /* StocksHardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksHardMode.swift; sourceTree = "<group>"; };
 		C2852B952989667700B319E5 /* BullvsBesr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullvsBesr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2852B982989667700B319E5 /* BullvsBesrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullvsBesrApp.swift; sourceTree = "<group>"; };
 		C2852B9A2989667700B319E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		C2FC35692A50ADE6007EC971 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		C2FC35AC2A50B272007EC971 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C2FC35AE2A50B5CA007EC971 /* BullPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullPage.swift; sourceTree = "<group>"; };
-		C2FC35B02A50B5F4007EC971 /* BearPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearPage.swift; sourceTree = "<group>"; };
 		C2FC35B62A51FC78007EC971 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +67,6 @@
 		C2852B8C2989667700B319E5 = {
 			isa = PBXGroup;
 			children = (
-				C2529E8E2A5B2C6C00346A11 /* HardMode.swift */,
 				C2852B972989667700B319E5 /* BullvsBesr */,
 				C2852B962989667700B319E5 /* Products */,
 			);
@@ -82,8 +83,6 @@
 		C2852B972989667700B319E5 /* BullvsBesr */ = {
 			isa = PBXGroup;
 			children = (
-				C2529E8C2A5B207E00346A11 /* DifficultyView.swift */,
-				C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */,
 				C2FC35692A50ADE6007EC971 /* Authentication.swift */,
 				C2852B982989667700B319E5 /* BullvsBesrApp.swift */,
 				C2852BAA29896E5E00B319E5 /* views */,
@@ -107,6 +106,7 @@
 			children = (
 				C28E12EB2995AD1100A27A0D /* Timer.swift */,
 				C2FC35B62A51FC78007EC971 /* Scenario.swift */,
+				C2529E942A5B3C0C00346A11 /* StocksHardMode.swift */,
 				C2F14C39299A88E400B52ECF /* Stocks.swift */,
 				C2FC356B2A50AE6F007EC971 /* models */,
 				C2F14C3B299BEAF400B52ECF /* Extensions.swift */,
@@ -118,11 +118,14 @@
 		C2852BAA29896E5E00B319E5 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				C2529E8C2A5B207E00346A11 /* DifficultyView.swift */,
+				C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */,
 				C2B444A4299E7E5900010D9F /* Logovideo.swift */,
 				C2852B9A2989667700B319E5 /* ContentView.swift */,
+				C2529E8E2A5B2C6C00346A11 /* HardMode.swift */,
 				C2B4449C299D323F00010D9F /* EasyMode.swift */,
 				C2B444AE29A3CC4900010D9F /* GifImage.gif */,
-				C2FC35B02A50B5F4007EC971 /* BearPage.swift */,
+				C2529E902A5B383000346A11 /* BearPage.swift */,
 				C2FC35AE2A50B5CA007EC971 /* BullPage.swift */,
 				C2FC35AC2A50B272007EC971 /* GameViewController.swift */,
 			);
@@ -212,11 +215,12 @@
 				C2529E8D2A5B207E00346A11 /* DifficultyView.swift in Sources */,
 				C2F14C3A299A88E400B52ECF /* Stocks.swift in Sources */,
 				C2FC35B72A51FC78007EC971 /* Scenario.swift in Sources */,
-				C2FC35B12A50B5F4007EC971 /* BearPage.swift in Sources */,
 				C2852B992989667700B319E5 /* BullvsBesrApp.swift in Sources */,
 				C2529E8F2A5B2C6C00346A11 /* HardMode.swift in Sources */,
+				C2529E952A5B3C0C00346A11 /* StocksHardMode.swift in Sources */,
 				C28E12EC2995AD1100A27A0D /* Timer.swift in Sources */,
 				C2FC356A2A50ADE6007EC971 /* Authentication.swift in Sources */,
+				C2529E912A5B383000346A11 /* BearPage.swift in Sources */,
 				C2B444A5299E7E5900010D9F /* Logovideo.swift in Sources */,
 				C2B4449D299D323F00010D9F /* EasyMode.swift in Sources */,
 				C2FC35AF2A50B5CA007EC971 /* BullPage.swift in Sources */,
