@@ -12,6 +12,7 @@ struct GamePage2: View {
     @State var index = 0
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let t = Stocks()
+    
 
     var body: some View {
         VStack(spacing: 9){

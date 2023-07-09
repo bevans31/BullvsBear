@@ -7,42 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2529E8B2A5B1C9000346A11 /* EndingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */; };
+		C2529E8D2A5B207E00346A11 /* DifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8C2A5B207E00346A11 /* DifficultyView.swift */; };
+		C2529E8F2A5B2C6C00346A11 /* HardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2529E8E2A5B2C6C00346A11 /* HardMode.swift */; };
 		C26D06FF2993267D000E08FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B9A2989667700B319E5 /* ContentView.swift */; };
-		C26D0707299346D5000E08FA /* Invest Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D0706299346D5000E08FA /* Invest Button.swift */; };
-		C27A5C7029943F2400750868 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A5C6F29943F2400750868 /* GamePage.swift */; };
 		C2852B992989667700B319E5 /* BullvsBesrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2852B982989667700B319E5 /* BullvsBesrApp.swift */; };
 		C2852B9D2989667900B319E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2852B9C2989667900B319E5 /* Assets.xcassets */; };
 		C2852BA02989667900B319E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2852B9F2989667900B319E5 /* Preview Assets.xcassets */; };
 		C28E12EC2995AD1100A27A0D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E12EB2995AD1100A27A0D /* Timer.swift */; };
-		C2B4449D299D323F00010D9F /* Onboarding screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4449C299D323F00010D9F /* Onboarding screen.swift */; };
-		C2B4449F299D38A200010D9F /* GamePage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4449E299D38A200010D9F /* GamePage2.swift */; };
+		C2B4449D299D323F00010D9F /* EasyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4449C299D323F00010D9F /* EasyMode.swift */; };
 		C2B444A5299E7E5900010D9F /* Logovideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B444A4299E7E5900010D9F /* Logovideo.swift */; };
-		C2B444A9299E857100010D9F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B444A8299E857100010D9F /* UserModel.swift */; };
-		C2B444AB29A3BA2D00010D9F /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B444AA29A3BA2D00010D9F /* Checkout.swift */; };
 		C2B444AF29A3CC4900010D9F /* GifImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = C2B444AE29A3CC4900010D9F /* GifImage.gif */; };
 		C2F14C3A299A88E400B52ECF /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F14C39299A88E400B52ECF /* Stocks.swift */; };
 		C2F14C3C299BEAF400B52ECF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F14C3B299BEAF400B52ECF /* Extensions.swift */; };
 		C2F14C40299C7C7E00B52ECF /* quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F14C3F299C7C7E00B52ECF /* quotes.swift */; };
+		C2FC356A2A50ADE6007EC971 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35692A50ADE6007EC971 /* Authentication.swift */; };
+		C2FC35AD2A50B272007EC971 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35AC2A50B272007EC971 /* GameViewController.swift */; };
+		C2FC35AF2A50B5CA007EC971 /* BullPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35AE2A50B5CA007EC971 /* BullPage.swift */; };
+		C2FC35B12A50B5F4007EC971 /* BearPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35B02A50B5F4007EC971 /* BearPage.swift */; };
+		C2FC35B72A51FC78007EC971 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC35B62A51FC78007EC971 /* Scenario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C26D0706299346D5000E08FA /* Invest Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Invest Button.swift"; sourceTree = "<group>"; };
-		C27A5C6F29943F2400750868 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingScreen.swift; sourceTree = "<group>"; };
+		C2529E8C2A5B207E00346A11 /* DifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyView.swift; sourceTree = "<group>"; };
+		C2529E8E2A5B2C6C00346A11 /* HardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardMode.swift; sourceTree = "<group>"; };
 		C2852B952989667700B319E5 /* BullvsBesr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullvsBesr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2852B982989667700B319E5 /* BullvsBesrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullvsBesrApp.swift; sourceTree = "<group>"; };
 		C2852B9A2989667700B319E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2852B9C2989667900B319E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2852B9F2989667900B319E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C28E12EB2995AD1100A27A0D /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
-		C2B4449C299D323F00010D9F /* Onboarding screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding screen.swift"; sourceTree = "<group>"; };
-		C2B4449E299D38A200010D9F /* GamePage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage2.swift; sourceTree = "<group>"; };
+		C2B4449C299D323F00010D9F /* EasyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMode.swift; sourceTree = "<group>"; };
 		C2B444A4299E7E5900010D9F /* Logovideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logovideo.swift; sourceTree = "<group>"; };
-		C2B444A8299E857100010D9F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		C2B444AA29A3BA2D00010D9F /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
 		C2B444AE29A3CC4900010D9F /* GifImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GifImage.gif; sourceTree = "<group>"; };
 		C2F14C39299A88E400B52ECF /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
 		C2F14C3B299BEAF400B52ECF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C2F14C3F299C7C7E00B52ECF /* quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotes.swift; sourceTree = "<group>"; };
+		C2FC35692A50ADE6007EC971 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		C2FC35AC2A50B272007EC971 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C2FC35AE2A50B5CA007EC971 /* BullPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullPage.swift; sourceTree = "<group>"; };
+		C2FC35B02A50B5F4007EC971 /* BearPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearPage.swift; sourceTree = "<group>"; };
+		C2FC35B62A51FC78007EC971 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		C2852B8C2989667700B319E5 = {
 			isa = PBXGroup;
 			children = (
+				C2529E8E2A5B2C6C00346A11 /* HardMode.swift */,
 				C2852B972989667700B319E5 /* BullvsBesr */,
 				C2852B962989667700B319E5 /* Products */,
 			);
@@ -75,6 +82,9 @@
 		C2852B972989667700B319E5 /* BullvsBesr */ = {
 			isa = PBXGroup;
 			children = (
+				C2529E8C2A5B207E00346A11 /* DifficultyView.swift */,
+				C2529E8A2A5B1C9000346A11 /* EndingScreen.swift */,
+				C2FC35692A50ADE6007EC971 /* Authentication.swift */,
 				C2852B982989667700B319E5 /* BullvsBesrApp.swift */,
 				C2852BAA29896E5E00B319E5 /* views */,
 				C2852BA72989680800B319E5 /* compents */,
@@ -95,10 +105,10 @@
 		C2852BA72989680800B319E5 /* compents */ = {
 			isa = PBXGroup;
 			children = (
-				C26D0706299346D5000E08FA /* Invest Button.swift */,
 				C28E12EB2995AD1100A27A0D /* Timer.swift */,
+				C2FC35B62A51FC78007EC971 /* Scenario.swift */,
 				C2F14C39299A88E400B52ECF /* Stocks.swift */,
-				C2B444A8299E857100010D9F /* UserModel.swift */,
+				C2FC356B2A50AE6F007EC971 /* models */,
 				C2F14C3B299BEAF400B52ECF /* Extensions.swift */,
 				C2F14C3F299C7C7E00B52ECF /* quotes.swift */,
 			);
@@ -108,15 +118,22 @@
 		C2852BAA29896E5E00B319E5 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				C27A5C6F29943F2400750868 /* GamePage.swift */,
-				C2B4449E299D38A200010D9F /* GamePage2.swift */,
-				C2852B9A2989667700B319E5 /* ContentView.swift */,
-				C2B444AE29A3CC4900010D9F /* GifImage.gif */,
 				C2B444A4299E7E5900010D9F /* Logovideo.swift */,
-				C2B4449C299D323F00010D9F /* Onboarding screen.swift */,
-				C2B444AA29A3BA2D00010D9F /* Checkout.swift */,
+				C2852B9A2989667700B319E5 /* ContentView.swift */,
+				C2B4449C299D323F00010D9F /* EasyMode.swift */,
+				C2B444AE29A3CC4900010D9F /* GifImage.gif */,
+				C2FC35B02A50B5F4007EC971 /* BearPage.swift */,
+				C2FC35AE2A50B5CA007EC971 /* BullPage.swift */,
+				C2FC35AC2A50B272007EC971 /* GameViewController.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		C2FC356B2A50AE6F007EC971 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,19 +207,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2529E8B2A5B1C9000346A11 /* EndingScreen.swift in Sources */,
 				C2F14C40299C7C7E00B52ECF /* quotes.swift in Sources */,
+				C2529E8D2A5B207E00346A11 /* DifficultyView.swift in Sources */,
 				C2F14C3A299A88E400B52ECF /* Stocks.swift in Sources */,
+				C2FC35B72A51FC78007EC971 /* Scenario.swift in Sources */,
+				C2FC35B12A50B5F4007EC971 /* BearPage.swift in Sources */,
 				C2852B992989667700B319E5 /* BullvsBesrApp.swift in Sources */,
-				C2B4449F299D38A200010D9F /* GamePage2.swift in Sources */,
+				C2529E8F2A5B2C6C00346A11 /* HardMode.swift in Sources */,
 				C28E12EC2995AD1100A27A0D /* Timer.swift in Sources */,
-				C27A5C7029943F2400750868 /* GamePage.swift in Sources */,
-				C2B444AB29A3BA2D00010D9F /* Checkout.swift in Sources */,
+				C2FC356A2A50ADE6007EC971 /* Authentication.swift in Sources */,
 				C2B444A5299E7E5900010D9F /* Logovideo.swift in Sources */,
-				C2B4449D299D323F00010D9F /* Onboarding screen.swift in Sources */,
+				C2B4449D299D323F00010D9F /* EasyMode.swift in Sources */,
+				C2FC35AF2A50B5CA007EC971 /* BullPage.swift in Sources */,
 				C26D06FF2993267D000E08FA /* ContentView.swift in Sources */,
+				C2FC35AD2A50B272007EC971 /* GameViewController.swift in Sources */,
 				C2F14C3C299BEAF400B52ECF /* Extensions.swift in Sources */,
-				C2B444A9299E857100010D9F /* UserModel.swift in Sources */,
-				C26D0707299346D5000E08FA /* Invest Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BullvsBesr/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C3BS7BPJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -359,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BullvsBesr/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C3BS7BPJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

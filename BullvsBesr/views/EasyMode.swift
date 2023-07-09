@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Onboarding_screen: View {
+struct EasyMode: View {
     var body: some View {
         VStack(spacing:10){
             
@@ -20,10 +20,10 @@ struct Onboarding_screen: View {
             
         
             
-            NavigationLink(destination: GamePage()){
+            NavigationLink(destination: BullPage(stocks: Stocks())){
                 Image("Bull")}
-            
-            NavigationLink(destination: GamePage2()){
+
+            NavigationLink(destination: BearPage(scenarios: scenarios, stocks: Stocks())){
                 Image("Bear")}
             
         
@@ -38,9 +38,9 @@ struct Onboarding_screen: View {
         }
     }
     
-    struct Onboarding_screen_Previews: PreviewProvider {
+    struct EasyMode_Previews: PreviewProvider {
         static var previews: some View {
-            Onboarding_screen()
+            EasyMode()
         }
     }
 }

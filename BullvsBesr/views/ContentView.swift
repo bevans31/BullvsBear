@@ -8,10 +8,14 @@
 import SwiftUI
 import AVKit
 import AVFoundation
+import Foundation
 struct ContentView: View {
     
- 
-    
+    func randomQuote() -> String {
+        let randomNumber = Int.random(in: 0..<quotes.count)
+        return quotes[randomNumber]
+    }
+
     var body: some View {
         
         
@@ -24,17 +28,17 @@ struct ContentView: View {
                   
                       .frame(width: 300.0, height: 300.0)
                     
-                    Text("\"Financial literacy is one of the most important components of economic success. Without education and knowledge about financial management and investments, individuals, businesses, and communities won't be successful in accumulating wealth or using it to its fullest potential in the future.\" - Robert Kiyosaki\"")
-                  
-                        .font(.system(size: 11, weight: .light, design: .default))
-                        .frame(minWidth: 10, minHeight: 100, alignment: .leading)
-                        .clipped()
-                        .lineLimit(8)
-                        .padding()
+                  Text(randomQuote())
+                      .font(.system(size: 11, weight: .light, design: .default))
+                      .frame(minWidth: 10, minHeight: 100, alignment: .leading)
+                      .clipped()
+                      .lineLimit(8)
+                      .padding()
+
                     
                     
                 }
-                NavigationLink(destination: Onboarding_screen()){
+                NavigationLink(destination: DifficultyView()){
                     Text("Create Network")}
                 .padding()
                 .padding(.horizontal)

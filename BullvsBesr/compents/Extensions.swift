@@ -26,6 +26,19 @@ import AVKit
         }
     }
     
+func removeTrailingZeros(from value: Double) -> Double {
+    let formatter = NumberFormatter()
+    formatter.minimumFractionDigits = 0
+    formatter.maximumFractionDigits = 16 // maximum precision
+    let number = NSNumber(value: value)
+    let string = formatter.string(from: number) ?? ""
+    return Double(string) ?? value
+}
+
+
+
+    
+    
     extension Button {
         func investFormat() -> some View {
             self .padding(.horizontal, 2.0)

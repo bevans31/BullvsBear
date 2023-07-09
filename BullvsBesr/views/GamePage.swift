@@ -24,7 +24,7 @@ struct GamePage: View {
                     .font(.system(size: 30, weight: .medium))
                 
                 Spacer()
-                Text("Round 1")
+                Text("Round \(t.round[0])")
                     .font(.title)
                     .fontWeight(.medium)
             }

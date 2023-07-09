@@ -25,10 +25,15 @@ struct TimerView: View {
                 }
             Button( "Stop", action: {
                 timer.upstream.connect().cancel()
+               // timer.upstream.autoconnect()
             } )
+            Button ("Resume", action: { timerRunning = true
+                
+            })
                 .font(.system(size: 80, weight: .bold))
             
         }
+        
         
     }
     
@@ -39,4 +44,16 @@ struct TimerView: View {
         }
     }
 }
+
+//@State private var timeRemaining = 120
+//@State private var virtualMoney = 1500.0
+//@State private var isInvesting = false
+//@State private var isNextRound = false
+//@State private var index = 0
+//@State private var currentScenario: Scenario?
+//@State private var sharesToBuy = 0
+//@State private var showInvestSheet = false
+//let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+//let scenarios: [Scenario]
+//let stocks: Stocks
 
